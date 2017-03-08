@@ -1,0 +1,23 @@
+{
+    "name": "restgrip/session",
+    "description": "Restgrip session extra module based on Phalcon Session.",
+    "homepage": "https://github.com/restgrip/session",
+    "authors": [
+        {
+            "name": "Sarjono Mukti Aji",
+            "email": "me@simukti.net",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "restgrip/restgrip": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Restgrip\\": "src/Restgrip"
+        }
+    }
+}
